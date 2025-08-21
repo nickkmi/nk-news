@@ -1,25 +1,30 @@
 * {
-    margin: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #23262c;
+  font-family: 'Arial', sans-serif;
+  width: 100vw;
 }
 
 .konkhmer-sleokchher-regular {
-    font-family: "Konkhmer Sleokchher", system-ui;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Konkhmer Sleokchher", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
-    background-color: #174580;
-    width: 100%;
-    height: 85px;
-    
+  background-color: #154a8a;
+  width: 100vw;
+  height: 85px;
 }
 
 .logo {
-    color: white;
-    font-family: "Konkhmer Sleokchher";
-    text-align: center;
-      display: flex;
+  color: white;
+  font-family: "Konkhmer Sleokchher";
+  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px 0;
@@ -30,15 +35,15 @@ nav {
 }
 
 nav ul {
-  display: flex; /* Deixa os itens em linha */
-  justify-content: center; /* Centraliza horizontalmente */
-  list-style: none; /* Remove as bolinhas da lista */
+  display: flex;
+  justify-content: center;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
 nav ul li {
-  margin: 0 15px; /* Espaço entre os itens */
+  margin: 0 15px;
 }
 
 nav ul li a {
@@ -47,11 +52,78 @@ nav ul li a {
 }
 
 a {
-    text-decoration-line: none;
-    color: white;
-    font-family: "Konkhmer Sleokchher";
+  text-decoration-line: none;
+  color: white;
+  font-family: "Konkhmer Sleokchher";
 }
 
 a:hover {
-    color: lightgray;
+  color: lightgray;
+}
+
+#imgDestaque {
+  width: 30vw;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.863);
+}
+#imgDestaque:hover{
+  opacity: 0.7;
+}
+
+#destaque {
+  background: linear-gradient(135deg, #154a8a, #23262c);
+  padding: 60px 0;
+  margin-top: 12px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+span {
+  color: #154a8a;
+  font-family: "Konkhmer Sleokchher";
+  border-radius: 20px;
+  background-color: #ffd700;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+
+#textoDestaque {
+  width: 35vw;
+  color: white;
+}
+
+#textoDestaque h1 {
+  margin-top: 10px;
+  font-size: 2.2rem;
+}
+#textoDestaque h1:hover {
+  color: #ffffffd5;
+}
+
+#textoDestaque p {
+  color: #cccccc;
+  margin-top: 15px;
+  font-size: 1.1rem;
+
+}
+
+#ultimasNoticias {
+  height: 100vh;
+  width: 100vw;
+}
+footer{
+  background-color: #154a8a;   
+  color: #fff;         
+  text-align: center;      
+  padding: 20px;           
+  font-size: 14px;  
+}
+#ultimasNoticias h1{
+  text-align: center;
+  padding: 50px;
+  color: #154a8a;
+  font-size: 2.2rem;
 }
